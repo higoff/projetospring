@@ -31,8 +31,8 @@ public class DataInitializr implements ApplicationListener<ContextRefreshedEvent
 		
 		//User user = userRepository.findByNameQualquerCoisa("Ma");
 		//User user = userRepository.findByEmailLike("aaa@aaa.com");
-		User user = userRepository.findByNameLikeIgnoreCaseOrEmailLike("nataniel%", "aaa");
-		
+		//User user = userRepository.findByNameLikeIgnoreCaseOrEmailLike("nataniel%", "aaa");
+		User user = userRepository.findByEmailQualquerCoisa("bbb@bbb.com"); // MongoDB
 		
 		//user.setName("Nataniel Paiva");
 		
