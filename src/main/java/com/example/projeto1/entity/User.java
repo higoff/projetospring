@@ -13,6 +13,7 @@ public class User {
 	@Id
 	//@GeneratedValue(strategy = GenerationType.AUTO)
 	//private Long id;
+	//
 	private String id;
 	
 	private String name;
